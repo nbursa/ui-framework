@@ -27,8 +27,11 @@ npm install
 
 Component/Page:
 ```jsx
+import {Navigation} from "./components/Navigation.jsx";
+
 export const Component = () => (
     <>
+        <Navigation/>
         <h1>Hello, UIFramework!</h1>
         <p>This is a simple test.</p>
     </>
