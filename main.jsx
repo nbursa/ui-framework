@@ -2,6 +2,7 @@ import UIFramework from './ui-framework.js';
 import router from './router.js';
 import './style.css';
 import { HomePage, AboutPage } from './pages';
+import {Navigation} from "./components/Navigation.jsx";
 
 if (window) window.UIFramework = UIFramework;
 
@@ -10,7 +11,7 @@ router.registerRoute('/about', AboutPage);
 
 const App = () => (
     <>
-        <h2>My App</h2>
+        <Navigation/>
         <div id="router-view"></div>
     </>
 );

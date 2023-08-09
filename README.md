@@ -27,7 +27,7 @@ npm install
 
 Component/Page:
 ```jsx
-const Component = () => (
+export const Component = () => (
     <>
         <h1>Hello, UIFramework!</h1>
         <p>This is a simple test.</p>
