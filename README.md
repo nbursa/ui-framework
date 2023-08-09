@@ -67,7 +67,7 @@ export const routes = [
 ```
 
 ```jsx
-import {Navigation} from "./components/Navigation.jsx";
+import { Navigation } from "./components/Navigation.jsx";
 
 const App = () => (
     <>
