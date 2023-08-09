@@ -2,8 +2,22 @@
 
 UIFramework is a lightweight, custom JavaScript framework for building user interfaces. With JSX-like syntax, it provides developers with a simple way to create and render UI components.
 
-## Getting Started
 
+## Table of Contents
+- [Getting Started](#getting-started)
+    * [Prerequisites](#prerequisites)
+    * [Installation](#installation)
+- [Usage](#usage)
+    * [Main](#main)
+    * [Pages](#pages)
+    * [Components](#components)
+    * [Routes](#routes)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## Getting Started
 
 ### Prerequisites
 
