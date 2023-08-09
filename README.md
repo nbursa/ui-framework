@@ -25,34 +25,17 @@ npm install
 
 ### Usage
 
-1. Create a new JSX component:
+Component/Page:
 ```jsx
 import UIFramework from './ui-framework.js';
 
-const App = () => (
+const Component = () => (
     <>
         <h1>Hello, UIFramework!</h1>
         <p>This is a simple test.</p>
     </>
 );
 
-document.addEventListener("DOMContentLoaded", () => {
-    UIFramework.render(<App />, document.getElementById('app'));
-});
-```
-2. In your HTML, you can now use the created component:
-```html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Your App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/path-to-your-jsx-file.js"></script>
-  </body>
-</html>
 ```
 
 ### Features
