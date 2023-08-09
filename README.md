@@ -25,15 +25,54 @@ npm install
 
 ### Usage
 
-Component/Page:
+Components:
+```jsx
+export const Navigation = () => (
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </nav>
+);
+```
+
+Pages:
+```jsx
+import { Component } from "./components/Component.jsx";
+
+export const HomePage = () => (
+    <>
+        <Component />
+        <h1>Hello, UIFramework!</h1>
+        <p>This is a simple test.</p>
+    </>
+);
+```
+
+Routes: 
+```jsx
+import { HomePage, AboutPage } from './pages';
+
+export const routes = [
+    {
+        path: '/',
+        component: HomePage,
+        name: 'Home'
+    },
+    {
+        path: '/about',
+        component: AboutPage,
+        name: 'About'
+    },
+];
+```
+
 ```jsx
 import {Navigation} from "./components/Navigation.jsx";
 
-export const Component = () => (
+const App = () => (
     <>
         <Navigation/>
-        <h1>Hello, UIFramework!</h1>
-        <p>This is a simple test.</p>
+        <div id="router-view"></div>
     </>
 );
 ```
