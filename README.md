@@ -4,6 +4,7 @@ UIFramework is a lightweight, custom JavaScript framework for building user inte
 
 ## Getting Started
 
+
 ### Prerequisites
 
 Ensure you have a modern web browser and a recent version of Node.js installed.
@@ -40,6 +41,7 @@ const Main = () => (
 );
 ```
 
+
 ### Pages:
 * create modular pages
 
@@ -56,6 +58,7 @@ export const HomePage = () => (
 );
 ```
 
+
 ### Components:
 * build custom components
 
@@ -71,6 +74,7 @@ export const Navigation = () => (
     </nav>
 );
 ```
+
 
 ### Routes:
 * configure custom routes
@@ -92,6 +96,7 @@ export const routes = [
     },
 ];
 ```
+
 
 ## Features
 
