@@ -1,9 +1,7 @@
-import UIFramework from './core/ui-framework.js';
-import router from './core/router.js';
+import UIFramework from './bin/ui-framework.js';
+import router from './bin/router.js';
 import './style.css';
 import {Navigation} from "./components/Navigation.jsx";
-
-if (window) window.UIFramework = UIFramework;
 
 const App = () => (
     <>
@@ -13,6 +11,7 @@ const App = () => (
 );
 
 document.addEventListener("DOMContentLoaded", () => {
+    UIFramework.register();
     const appElement = App();
     UIFramework.render(appElement, document.getElementById('app'));
     router.initializeRouter(document.getElementById('router-view'));

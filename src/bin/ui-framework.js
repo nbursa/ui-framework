@@ -85,9 +85,14 @@ export function render(element, container) {
 
 const Fragment = Symbol("Fragment");
 
+const register = () => {
+    return window.UIFramework = UIFramework;
+}
+
 const UIFramework = {
     createElement,
     render,
+    register,
     Fragment
 };
 
