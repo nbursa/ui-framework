@@ -27,15 +27,12 @@ npm install
 
 Component/Page:
 ```jsx
-import UIFramework from './ui-framework.js';
-
 const Component = () => (
     <>
         <h1>Hello, UIFramework!</h1>
         <p>This is a simple test.</p>
     </>
 );
-
 ```
 
 ### Features
