@@ -1,10 +1,15 @@
 import UIFramework from './ui-framework.js';
-
-const routes = {};
+import { routes } from './routes.js';
 
 export function registerRoute(path, component) {
     routes[path] = component;
     console.log(`Registered route: ${path}`);
+}
+
+export function registerAllRoutes() {
+    routes.forEach(route => {
+        registerRoute(route.path, route.component);
+    });
 }
 
 export function navigateTo(path, container) {
@@ -40,8 +45,11 @@ function updateRoute(container) {
     }
 }
 
+registerAllRoutes()
+
 export default {
     registerRoute,
+    registerAllRoutes,
     navigateTo,
     initializeRouter
 };
