@@ -12,7 +12,7 @@ Ensure you have a modern web browser and a recent version of Node.js installed.
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/nbursa/ui-framework
 ```
 2. Navigate to the project directory:
 ```bash
