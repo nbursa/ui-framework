@@ -23,7 +23,7 @@ cd ui-framework
 npm install
 ```
 
-### Usage
+## Usage
 
 ### Main:
 * setup your layout, wrappers etc
