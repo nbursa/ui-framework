@@ -28,10 +28,13 @@ npm install
 Components:
 ```jsx
 // src/components/Navigation.jsx
+import { routes } from "../routes.js";
+
 export const Navigation = () => (
     <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
+        {routes.map(route => (
+            <a className="link" href={route.path} key={route.path}>{route.name}</a>
+        ))}
     </nav>
 );
 ```
