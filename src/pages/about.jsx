@@ -1,5 +1,5 @@
 export const AboutPage = () => (
     <>
-        <h2>Welcome to About Page!</h2>
+        <h2>About!</h2>
     </>
 );

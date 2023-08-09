@@ -27,6 +27,7 @@ npm install
 
 Components:
 ```jsx
+// src/components/Navigation.jsx
 export const Navigation = () => (
     <nav>
         <a href="/">Home</a>
@@ -38,6 +39,7 @@ export const Navigation = () => (
 Pages:
 
 ```jsx
+// src/pages/home.jsx
 import {Component} from "./src/components/Component.jsx";
 
 export const HomePage = () => (
@@ -52,6 +54,7 @@ export const HomePage = () => (
 Routes:
 
 ```jsx
+// src/routes.js
 import {HomePage, AboutPage} from './src/pages';
 
 export const routes = [
@@ -69,6 +72,7 @@ export const routes = [
 ```
 
 ```jsx
+// src/App.jsx
 import {Navigation} from "./src/components/Navigation.jsx";
 
 const App = () => (
