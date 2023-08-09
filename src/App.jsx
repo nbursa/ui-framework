@@ -1,7 +1,7 @@
-import UIFramework from './ui-framework.js';
-import router from './router.js';
+import UIFramework from './core/ui-framework.js';
+import router from './core/router.js';
 import './style.css';
-import {Navigation} from "./components/Navigation.jsx";
+import {Navigation} from "../components/Navigation.jsx";
 
 if (window) window.UIFramework = UIFramework;
 

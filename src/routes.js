@@ -1,4 +1,4 @@
-import { HomePage, AboutPage } from './pages';
+import { HomePage, AboutPage } from '../pages/index.jsx';
 
 export const routes = [
     {

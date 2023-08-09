@@ -1,9 +1,15 @@
 {
-  "name": "ui-framework",
+  "name": "mini-ui-framework",
   "private": true,
+  "author": "nbursa@gmail.com",
   "version": "0.0.0",
   "type": "module",
+  "main": "src/core/ui-framework.js",
+  "bin": {
+    "uiframework": "bin/cli.js"
+  },
   "scripts": {
+    "start": "node bin/cli.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

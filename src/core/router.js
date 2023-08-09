@@ -1,5 +1,5 @@
 import UIFramework from './ui-framework.js';
-import { routes } from './routes.js';
+import { routes } from '../routes.js';
 
 export function registerRoute(path, component) {
     routes[path] = component;
