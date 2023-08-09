@@ -28,7 +28,7 @@ npm install
 Components:
 ```jsx
 // src/components/Navigation.jsx
-import { routes } from "../routes.js";
+import {routes} from "../routes.js";
 
 export const Navigation = () => (
     <nav>
