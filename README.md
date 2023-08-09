@@ -93,16 +93,17 @@ export const routes = [
 ];
 ```
 
-### Features
+## Features
 
-JSX-like syntax: Easily describe your UI using a syntax you're already familiar with.
-Custom rendering: Render your components efficiently and intuitively.
-Lightweight: No heavy dependencies or unnecessary overhead.
-Contributing
+- JSX-like syntax: Easily describe your UI using a syntax you're already familiar with.
+- Custom rendering: Render your components efficiently and intuitively.
+- Lightweight: No heavy dependencies or unnecessary overhead.
+- 
+## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-### License
+## License
 This project is open-source. See the LICENSE file for more information.
 
-### Acknowledgments
+## Acknowledgments
 Thanks to the open-source community for inspiration and best practices.
