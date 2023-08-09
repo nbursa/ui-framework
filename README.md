@@ -25,7 +25,7 @@ npm install
 
 ### Usage
 
-# Main:
+### Main:
 * setup your layout, wrappers etc
 
 ```jsx
@@ -40,7 +40,7 @@ const Main = () => (
 );
 ```
 
-# Pages:
+### Pages:
 * create modular pages
 
 ```jsx
@@ -56,8 +56,7 @@ export const HomePage = () => (
 );
 ```
 
-
-# Components:
+### Components:
 * build custom components
 
 ```jsx
@@ -73,7 +72,7 @@ export const Navigation = () => (
 );
 ```
 
-# Routes:
+### Routes:
 * configure custom routes
 
 ```jsx
