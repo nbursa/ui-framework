@@ -1,5 +1,5 @@
-import UIFramework from './bin/ui-framework.js';
-import router from './bin/router.js';
+import UIFramework from './lib/ui-framework.js';
+import router from './lib/router.js';
 import './style.css';
 import {Navigation} from "./components/Navigation.jsx";
 

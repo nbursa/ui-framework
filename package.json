@@ -4,7 +4,7 @@
   "author": "nbursa@gmail.com",
   "version": "0.0.0",
   "type": "module",
-  "main": "src/bin/ui-framework.js",
+  "main": "src/lib/ui-framework.js",
   "bin": {
     "uiframework": "bin/cli.js"
   },
