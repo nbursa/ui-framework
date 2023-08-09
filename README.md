@@ -36,21 +36,23 @@ export const Navigation = () => (
 ```
 
 Pages:
+
 ```jsx
-import { Component } from "./components/Component.jsx";
+import {Component} from "./src/components/Component.jsx";
 
 export const HomePage = () => (
     <>
-        <Component />
+        <Component/>
         <h1>Hello, UIFramework!</h1>
         <p>This is a simple test.</p>
     </>
 );
 ```
 
-Routes: 
+Routes:
+
 ```jsx
-import { HomePage, AboutPage } from './pages';
+import {HomePage, AboutPage} from './src/pages';
 
 export const routes = [
     {
@@ -67,7 +69,7 @@ export const routes = [
 ```
 
 ```jsx
-import { Navigation } from "./components/Navigation.jsx";
+import {Navigation} from "./src/components/Navigation.jsx";
 
 const App = () => (
     <>
