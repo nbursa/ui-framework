@@ -3,7 +3,7 @@ import router from './bin/router.js';
 import './style.css';
 import {Navigation} from "./components/Navigation.jsx";
 
-const App = () => (
+const Main = () => (
     <>
         <Navigation/>
         <div id="router-view"></div>
@@ -12,7 +12,7 @@ const App = () => (
 
 document.addEventListener("DOMContentLoaded", () => {
     UIFramework.register();
-    const appElement = App();
+    const appElement = Main();
     UIFramework.render(appElement, document.getElementById('app'));
     router.initializeRouter(document.getElementById('router-view'));
 });

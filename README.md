@@ -75,10 +75,10 @@ export const routes = [
 ```
 
 ```jsx
-// src/App.jsx
+// src/main.jsx
 import {Navigation} from "./src/components/Navigation.jsx";
 
-const App = () => (
+const Main = () => (
     <>
         <Navigation/>
         <div id="router-view"></div>
