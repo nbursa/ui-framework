@@ -25,21 +25,23 @@ npm install
 
 ### Usage
 
-Components:
-```jsx
-// src/components/Navigation.jsx
-import {routes} from "../routes.js";
+# Main:
+* setup your layout, wrappers etc
 
-export const Navigation = () => (
-    <nav>
-        {routes.map(route => (
-            <a className="link" href={route.path} key={route.path}>{route.name}</a>
-        ))}
-    </nav>
+```jsx
+// src/main.jsx
+import {Navigation} from "./src/components/Navigation.jsx";
+
+const Main = () => (
+    <>
+        <Navigation/>
+        <div id="router-view"></div>
+    </>
 );
 ```
 
-Pages:
+# Pages:
+* create modular pages
 
 ```jsx
 // src/pages/home.jsx
@@ -54,7 +56,25 @@ export const HomePage = () => (
 );
 ```
 
-Routes:
+
+# Components:
+* build custom components
+
+```jsx
+// src/components/Navigation.jsx
+import {routes} from "../routes.js";
+
+export const Navigation = () => (
+    <nav>
+        {routes.map(route => (
+            <a className="link" href={route.path} key={route.path}>{route.name}</a>
+        ))}
+    </nav>
+);
+```
+
+# Routes:
+* configure custom routes
 
 ```jsx
 // src/routes.js
@@ -72,18 +92,6 @@ export const routes = [
         name: 'About'
     },
 ];
-```
-
-```jsx
-// src/main.jsx
-import {Navigation} from "./src/components/Navigation.jsx";
-
-const Main = () => (
-    <>
-        <Navigation/>
-        <div id="router-view"></div>
-    </>
-);
 ```
 
 ### Features
