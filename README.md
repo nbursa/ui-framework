@@ -1,4 +1,4 @@
-###### *NOTE: This is learning project! - WIP*
+###### *NOTE: This is learning project and it is WIP!*
 
 # UIFramework
 
