@@ -1,4 +1,4 @@
-### NOTE: this is learning project!
+### NOTE: This is learning project!
 
 # UIFramework
 
