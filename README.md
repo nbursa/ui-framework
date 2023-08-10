@@ -1,4 +1,4 @@
-###### *NOTE: This is learning project!*
+###### *NOTE: This is learning project! - WIP*
 
 # UIFramework
 
@@ -97,19 +97,19 @@ export const Navigation = () => (
 
 ```jsx
 // src/routes.js
-import {HomePage, AboutPage} from './src/pages';
+import {HomePage, AboutPage} from './index';
 
 export const routes = [
-    {
-        path: '/',
-        component: HomePage,
-        name: 'Home'
-    },
-    {
-        path: '/about',
-        component: AboutPage,
-        name: 'About'
-    },
+  {
+    path: '/',
+    component: HomePage,
+    name: 'Home'
+  },
+  {
+    path: '/about',
+    component: AboutPage,
+    name: 'About'
+  },
 ];
 ```
 
